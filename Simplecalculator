@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class Calculator {
+    public static void main(String[] args) {
+        int a;
+        int b;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the first integer");
+        a = scanner.nextInt();
+        System.out.println("Enter the second integer");
+        b = scanner.nextInt();
+        
+        int sum = a + b;
+        
+        System.out.println("The sum is: " + sum);
+        
+        int difference = a - b;
+        
+        System.out.println("The difference is: " + difference);
+        
+        int product = a * b;
+        
+        System.out.println("The product is: " + product);
+        
+        int quotient = a / b;
+        
+        System.out.println("The quotient is: " + quotient);
+        
+    }
+}
